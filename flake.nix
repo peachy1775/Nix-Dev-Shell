@@ -66,20 +66,39 @@
         # Programming/Scripting
         nasm
         (python3.withPackages (python-pkgs: with python-pkgs; [
-          pwntools
-          requests
-          numpy
-          z3-solver
-          pycrypto
+         # Web exploitation
+         requests
+         flask
+         beautifulsoup4
+         urllib3
+         websockets
+         httpx
+         jwt
+        
+         # Reverse engineering / binary exploitation
+         pwntools
+         capstone
+         unicorn
+         keystone
+         angr
+         z3-solver
+        
+         # Crypto
+         pycryptodome
+         base58
+        
+         # General-purpose / scripting
+         numpy
+         ipython
+         matplotlib
+         tqdm
         ]))
       ];
 
       shellHook = ''
-        alias rot13="tr 'A-Za-z' 'N-ZA-Mn-za-m'"
 
-        echo "It's hacking time!"
-        export PS1="\[\033[1;32m\][\[\e]0;\u@\h: \
-          \w\a\]hacker@\h:\w]\$\[\033[0m\] "
+        echo "Life Is Peachy"
+          export PS1="\[\e[1;36m\]\A [\u@\h] \[\e[38;5;151m\]\w\n\[\e[38;5;218m\]\\$\[\e[0m\] "
       '';
     };
   };
