@@ -1,5 +1,5 @@
 {
-  description = "A CTF Nix shell";
+  description = "A CTF Nix Shell";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
