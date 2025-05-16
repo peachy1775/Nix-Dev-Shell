@@ -1,0 +1,48 @@
+# VPN configs
+*.ovpn
+
+# Wordlists or dictionaries
+wordlist/
+rockyou.txt
+*.lst
+
+# HTB or other challenge folders
+htb/
+meta/
+pico/
+
+# Secrets or credentials
+*.key
+*.pem
+*.crt
+*.kdbx
+*.gpg
+secrets.*
+.env
+.env.*
+
+# System clutter
+*.swp
+*.swo
+*.bak
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Editor folders
+.vscode/
+.idea/
+*.code-workspace
+
+# Build artifacts
+result/
+dist/
+build/
+target/
+
+# nix build stuff
+.result-tmp/
+.cache/
