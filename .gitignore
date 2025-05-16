@@ -12,15 +12,31 @@ rockyou.txt
 *.crt
 *.kdbx
 *.gpg
+*.asc
+*.token
+*.secret
+*.auth
+credentials.*
 secrets.*
 .env
 .env.*
+id_rsa
+id_rsa.pub
+id_dsa
+id_ecdsa
+id_ed25519
+id_ed25519.pub
+.ssh/
 
 # System clutter
 *.swp
 *.swo
 *.bak
 *~
+*.tmp
+*.temp
+*.old
+*.orig
 .DS_Store
 Thumbs.db
 
@@ -37,8 +53,16 @@ result/
 dist/
 build/
 target/
+__pycache__/
+*.py[cod]
+*.egg-info/
 
 # nix build stuff
 .result-tmp/
 .cache/
+ssh-agent.env.direnv/
+.env*
+result*
+home/git.nix
 ssh-agent.env
+
