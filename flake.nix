@@ -98,7 +98,7 @@
       shellHook = ''
 
         echo "Life Is Peachy"
-          export PS1="\[\e[1;36m\]\A [\u@\h] \[\e[38;5;151m\]\w\n\[\e[38;5;218m\]\\$\[\e[0m\] "
+          export PS1="\[\e[1;36m\]\A [GetHacked@\h] \[\e[38;5;151m\]\w\n\[\e[38;5;218m\]\\$\[\e[0m\] "
       '';
     };
   };

@@ -14,4 +14,4 @@ This Shell Also Has Python3 Tools Used For CTF Challs
 
 Below Is a Picture Of How The Shell Will Look Once Depolyed
 
-![Nix-Shell](https://github.com/user-attachments/assets/c7a7bc32-a05b-4384-a5d3-12e86a4bdf48)
+![NixShell](https://github.com/user-attachments/assets/586ed2ef-65de-4f16-85b7-cbd0a9043390)
