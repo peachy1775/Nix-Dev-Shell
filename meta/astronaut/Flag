@@ -1,11 +1,15 @@
-For this CTf chal we need to find out what the architecture is
+For this CTF challenge, we need to find out what the architecture is.
 
-so for this i use file <the file name>
-and i get this output
+To do this, I run:
+
+file <the file name>
+and get the following output:
+
 astronaut: ELF 32-bit LSB executable, Tensilica Xtensa, version 1 (SYSV), statically linked, with debug_info, not stripped
 
-well im not keen on every architecture is out there but i know who is CHATGPT
+I'm not familiar with every architecture out there—but I know who is: ChatGPT.
 
-so paste that into the CHATGPT and ask it what is the architecture of that file
-and it will tell you it is
-Tensilica Xtensa << this is also the flag as is >>
+So, I paste that output into ChatGPT and ask what architecture the file uses.
+
+It tells me:
+Tensilica Xtensa ← this is also the flag (as is).

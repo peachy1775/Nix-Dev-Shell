@@ -1,10 +1,17 @@
-for this chal we are going to just use strings as the hint tell us 
+For this challenge, we are just going to use strings, as the hint suggests.
 
-when we run strings < the file >
-we get so many we can look through them all
+When we run:
 
-so we are going to just grep once again I know 
+strings <the file>
+we get so many results that we can't look through them all manually.
 
-strings < the file > | grep picoCTF ( we know this part is in the flag)
+So, once again, we're going to use grep:
 
-then we get picoCTF{1t5_ju5t_4_5tr1n9_be6031da}
+
+strings <the file> | grep picoCTF
+(We know this part is in the flag.)
+
+Then we get:
+
+
+picoCTF{1t5_ju5t_4_5tr1n9_be6031da}

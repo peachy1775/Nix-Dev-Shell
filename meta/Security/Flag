@@ -1,17 +1,25 @@
-Look at code and change the place of the If and Else commands so that
+Look at the code and change the position of the if and else statements so that:
 
-(f"Well done, your flag isssssss {b64decode(SECRET_FLAG).decode()}")
 
-this command falls under the ELSE statement so no matter the password it will print the flag
+print(f"Well done, your flag isssssss {b64decode(SECRET_FLAG).decode()}")
 
-you can slo look at the strings command see that the SECRET_FLAG is a bunch of hex
-take that HEX to cyber chef then use the from hex on the left hand side
-that will give you this
+falls under the else block. This way, no matter what password you enter, it will print the flag.
+
+
+_______________________________________________________________________________________________________________________
+You can also use the strings command and see that SECRET_FLAG is a bunch of hex.
+Take that hex and paste it into CyberChef, then use the "From Hex" operation on the left-hand side.
+That gives you:
+
 TWV0YUNURntkMG43XzdydXM3X2NsMW43c193aTdoX3MzY3IzN3Nzc3Nzc3N9
-but its not a flag that we need but we are closer
-so now we can look back at the code and see that it will decrpyted by a Base64 after we put in the correct Password
-so lets try and take this to cyberchef since we know this part if base64 decypted
-and looky there we get
-MetaCTF{d0n7_7rus7_cl1n7s_wi7h_s3cr37sssssss}
 
-you now know 2 ways to find this flag
+It’s not a flag yet, but we’re getting closer.
+
+Now, look back at the code and notice that the flag gets decrypted using Base64 after entering the correct password.
+
+Since we already have the base64 string, try decoding it in CyberChef again using "From Base64".
+
+And looky there — you get:
+
+MetaCTF{d0n7_7rus7_cl1n7s_wi7h_s3cr37sssssss}
+Now you know two ways to find this flag — same result either way.

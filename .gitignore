@@ -41,3 +41,4 @@ target/
 # nix build stuff
 .result-tmp/
 .cache/
+ssh-agent.env
