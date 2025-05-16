@@ -1,0 +1,5 @@
+Run Strings on the fille make sure you can see strings of text
+
+Then run Strings stash | grep HTB
+
+copy flag as get the W

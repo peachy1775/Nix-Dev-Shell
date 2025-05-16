@@ -6,11 +6,6 @@ wordlist/
 rockyou.txt
 *.lst
 
-# HTB or other challenge folders
-htb/
-meta/
-pico/
-
 # Secrets or credentials
 *.key
 *.pem
