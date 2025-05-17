@@ -1,5 +1,8 @@
 ### THIS SHELL IS A FORK FROM
 
+I did make a few changes as seen below but the flake itself
+is a fork
+
 ####################################
 
 # https://github.com/jerryarciaga
