@@ -31,8 +31,8 @@
         nmap
         netcat-gnu
         wireshark
-        burpsuite
         gobuster
+        burpsuite
 
         # Binaries / Debuggers / Reverse Engineering Tools
         nix-ld
