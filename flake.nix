@@ -86,6 +86,8 @@
          # Crypto
          pycryptodome
          base58
+         gmpy2
+         sympy
         
          # General-purpose / scripting
          numpy
