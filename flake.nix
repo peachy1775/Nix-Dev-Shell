@@ -65,6 +65,7 @@
 
         # Programming/Scripting
         nasm
+        pyright
         (python3.withPackages (python-pkgs: with python-pkgs; [
          # Web exploitation
          requests
@@ -90,8 +91,8 @@
          sympy
         
          # General-purpose / scripting
-         numpy
-         ipython
+         numpy 
+         python
          matplotlib
          tqdm
         ]))
