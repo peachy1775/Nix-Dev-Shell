@@ -95,7 +95,13 @@
          python
          matplotlib
          tqdm
-        ]))
+         ipython
+         black        
+         isort        
+         pytest         
+         mypy       
+         pipx      
+         ]))
       ];
 
       shellHook = ''
