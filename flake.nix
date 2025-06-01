@@ -103,7 +103,9 @@
       shellHook = ''
         echo "Life Is Peachy"
         export PS1="\[\e[1;36m\]\A [GetHacked@\h] \[\e[38;5;151m\]\w\n\[\e[38;5;218m\]\\$\[\e[0m\] "
-
+        alias e="exit"
+        alias py="python3"
+        
         # Fix massive UI scaling
         export QT_AUTO_SCREEN_SCALE_FACTOR=0
         export QT_SCALE_FACTOR=1
